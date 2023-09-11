@@ -1,0 +1,1 @@
+/home/amardeepk/amardeep-assignment/ASSIGNMENT1/target/debug/assgn1: /home/amardeepk/amardeep-assignment/ASSIGNMENT1/src/dept.rs /home/amardeepk/amardeep-assignment/ASSIGNMENT1/src/leave.rs /home/amardeepk/amardeep-assignment/ASSIGNMENT1/src/main.rs /home/amardeepk/amardeep-assignment/ASSIGNMENT1/src/sal.rs
