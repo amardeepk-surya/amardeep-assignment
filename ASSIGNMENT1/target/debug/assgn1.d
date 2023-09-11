@@ -1,1 +1,0 @@
-/home/amardeepk/Documents/GITHUB/ASSIGNMENT/ASSIGNMENT1/target/debug/assgn1: /home/amardeepk/Documents/GITHUB/ASSIGNMENT/ASSIGNMENT1/src/dept.rs /home/amardeepk/Documents/GITHUB/ASSIGNMENT/ASSIGNMENT1/src/leave.rs /home/amardeepk/Documents/GITHUB/ASSIGNMENT/ASSIGNMENT1/src/main.rs /home/amardeepk/Documents/GITHUB/ASSIGNMENT/ASSIGNMENT1/src/sal.rs
