@@ -1,0 +1,55 @@
+{
+    "ca_ops": {
+        "source_name": "CA OPS",
+        "input_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_CFDATA/IND/{ddmmyyyy}/ca_classifier_ca_accmaster_ops_nrtl.txt",
+        "metadata_file_path": "",
+        "required_fields_file_path": "",
+        "is_consolidated": false
+    },
+    "ca_non_ops": {
+        "source_name": "CA NON OPS",
+        "input_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_CFDATA/IND/{ddmmyyyy}/ca_classifier_ca_accmaster_non_ops_nrtl.txt",
+        "metadata_file_path": "",
+        "required_fields_file_path": "",
+        "is_consolidated": false
+    },
+    "sa_ops": {
+        "source_name": "SA OPS",
+        "input_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_CFDATA/IND/{ddmmyyyy}/sa_classifier_sa_accmaster_ops_nrtl.txt",
+        "metadata_file_path": "",
+        "required_fields_file_path": "",
+        "is_consolidated": false
+    },
+    "sa_non_ops": {
+        "source_name": "SA NON OPS",
+        "input_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_CFDATA/IND/{ddmmyyyy}/sa_classifier_sa_accmaster_non_ops_nrtl.txt",
+        "metadata_file_path": "",
+        "required_fields_file_path": "",
+        "is_consolidated": false
+    },
+    "td_non_ops": {
+        "source_name": "TD",
+        "input_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_CFDATA/IND/{ddmmyyyy}/td_classifier_TD_non_ops_nrtl.cf",
+        "metadata_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/METADATA-FILES/classifier_metadata.json",
+        "required_fields_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/REQUIRED-FIELDS/customer-bybkt-aggregator-required-fields.json",
+        "is_consolidated": false
+    },
+    "rd_non_ops": {
+        "source_name": "RD",
+        "input_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/empty.cf",
+        "metadata_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/METADATA-FILES/classifier_metadata.json",
+        "required_fields_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/REQUIRED-FIELDS/customer-aggregator-required-fields.json",
+        "is_consolidated": false
+    },
+    "cust_aggr_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_CFDATA/IND/{ddmmyyyy}/non_retail_cust_aggr.txt",
+    "cust_aggr_metadata": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/METADATA-FILES/customer_aggregator.json",
+    "cust_aggr_req_fields": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/REQUIRED-FIELDS/customer-bybkt-aggregator-customer-data-required-fields.json",
+    "rtl_or_nrtl_agg": "NRTL",
+    "is_custid_level_data_req": false,
+    "group_consti_overide_file": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/MASTER/empty.txt",
+    "output_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_CFDATA/IND/{ddmmyyyy}/non_retail_bktwise",
+    "is_apply_custom_bkt": false,
+    "bkt_schema_file": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/MASTER/basel_bkt_schema.txt",
+    "rules_for_schemes_file": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/MASTER/basel_rules_scheme.txt",
+    "scheme_id": 1001
+}

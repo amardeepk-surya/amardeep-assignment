@@ -1,0 +1,210 @@
+{
+    "fields": [
+      {
+        "name": "acid",
+        "position": 1,
+        "typ": "String"
+      },
+      {
+        "name": "custid",
+        "position": 2,
+        "typ": "String"
+      },
+      {
+        "name": "customer_name",
+        "position": 3,
+        "typ": "String"
+      },
+      {
+        "name": "uccid",
+        "position": 4,
+        "typ": "String"
+      },
+      {
+        "name": "constitution_code",
+        "position": 5,
+        "typ": "String"
+      },
+      {
+        "name": "final_constitution_code",
+        "position": 6,
+        "typ": "String"
+      },
+      {
+        "name": "balm_llg",
+        "position": 7,
+        "typ": "I64"
+      },
+      {
+        "name": "currency",
+        "position": 8,
+        "typ": "String"
+      },
+      {
+        "name": "mat_date",
+        "position": 9,
+        "typ": "I64"
+      },
+      {
+        "name": "int_rate",
+        "position": 10,
+        "typ": "F64"
+      },
+      {
+        "name": "out_bal_amt",
+        "position": 11,
+        "typ": "F64"
+      },
+      {
+        "name": "opamt_ccy",
+        "position": 12,
+        "typ": "F64"
+      },
+      {
+        "name": "reported_opamt_ccy",
+        "position": 13,
+        "typ": "F64"
+      },
+      {
+        "name": "reported_nonopamt_ccy",
+        "position": 14,
+        "typ": "F64"
+      },
+      {
+        "name": "lien_actual_amt",
+        "position": 15,
+        "typ": "F64"
+      },
+      {
+        "name": "lien_final_amt",
+        "position": 16,
+        "typ": "F64"
+      },
+      {
+        "name": "is_operational",
+        "position": 17,
+        "typ": "String"
+      },
+      {
+        "name": "is_nwd",
+        "position": 18,
+        "typ": "String"
+      },
+      {
+        "name": "is_nwd_final",
+        "position": 19,
+        "typ": "String"
+      },
+      {
+        "name": "t1",
+        "position": 20,
+        "typ": "String"
+      },
+      {
+        "name": "t2",
+        "position": 21,
+        "typ": "String"
+      },
+      {
+        "name": "t3",
+        "position": 22,
+        "typ": "String"
+      },
+      {
+        "name": "t4",
+        "position": 23,
+        "typ": "String"
+      },
+      {
+        "name": "t5",
+        "position": 24,
+        "typ": "String"
+      },
+      {
+        "name": "t6",
+        "position": 25,
+        "typ": "String"
+      },
+      {
+        "name": "t7",
+        "position": 26,
+        "typ": "String"
+      },
+      {
+        "name": "t8",
+        "position": 27,
+        "typ": "String"
+      },
+      {
+        "name": "t9",
+        "position": 28,
+        "typ": "String"
+      },
+      {
+        "name": "t10",
+        "position": 29,
+        "typ": "String"
+      },
+      {
+        "name": "custom_1",
+        "position": 30,
+        "typ": "String"
+      },
+      {
+        "name": "custom_2",
+        "position": 31,
+        "typ": "String"
+      },
+      {
+        "name": "custom_3",
+        "position": 32,
+        "typ": "String"
+      },
+      {
+        "name": "custom_4",
+        "position": 33,
+        "typ": "String"
+      },
+      {
+        "name": "custom_5",
+        "position": 34,
+        "typ": "String"
+      },
+      {
+        "name": "custom_6",
+        "position": 35,
+        "typ": "I64"
+      },
+      {
+        "name": "custom_7",
+        "position": 36,
+        "typ": "I64"
+      },
+      {
+        "name": "custom_8",
+        "position": 37,
+        "typ": "F64"
+      },
+      {
+        "name": "custom_9",
+        "position": 38,
+        "typ": "F64"
+      },
+      {
+        "name": "custom_10",
+        "position": 39,
+        "typ": "F64"
+      },
+      {
+        "name": "lcr_classification",
+        "position": 40,
+        "typ": "I64"
+      },
+      {
+        "name": "cashflows",
+        "position": 41,
+        "typ": "Cashflows"
+      }
+    ]
+  }
+  

@@ -1,0 +1,174 @@
+{
+  "fields": [
+    {
+      "name": "acc_id",
+      "position": 1,
+      "typ": "String"
+    },
+    {
+      "name": "customer_id",
+      "position": 2,
+      "typ": "String"
+    },
+    {
+      "name": "ucic_id",
+      "position": 3,
+      "typ": "String"
+    },
+    {
+      "name": "product_code",
+      "position": 4,
+      "typ": "String"
+    },
+    {
+      "name": "os_bal",
+      "position": 5,
+      "typ": "F64"
+    },
+    {
+      "name": "int_rate",
+      "position": 6,
+      "typ": "F64"
+    },
+    {
+      "name": "ccy",
+      "position": 7,
+      "typ": "String"
+    },
+    {
+      "name": "npa_class",
+      "position": 8,
+      "typ": "String"
+    },
+    {
+      "name": "rw",
+      "position": 9,
+      "typ": "String"
+    },
+    {
+      "name": "resi_m",
+      "position": 10,
+      "typ": "String"
+    },
+    {
+      "name": "restructured",
+      "position": 11,
+      "typ": "String"
+    },
+    {
+      "name": "deposit_cls",
+      "position": 12,
+      "typ": "I64"
+    },
+    {
+      "name": "encumbrance_days",
+      "position": 13,
+      "typ": "I64"
+    },
+    {
+      "name": "pt_str_1",
+      "position": 14,
+      "typ": "String"
+    },
+    {
+      "name": "pt_str_2",
+      "position": 15,
+      "typ": "String"
+    },
+    {
+      "name": "pt_str_3",
+      "position": 16,
+      "typ": "String"
+    },
+    {
+      "name": "pt_str_4",
+      "position": 17,
+      "typ": "String"
+    },
+    {
+      "name": "pt_str_5",
+      "position": 18,
+      "typ": "String"
+    },
+    {
+      "name": "pt_str_6",
+      "position": 19,
+      "typ": "String"
+    },
+    {
+      "name": "pt_str_7",
+      "position": 20,
+      "typ": "String"
+    },
+    {
+      "name": "pt_str_8",
+      "position": 21,
+      "typ": "String"
+    },
+    {
+      "name": "pt_str_9",
+      "position": 22,
+      "typ": "String"
+    },
+    {
+      "name": "pt_str_10",
+      "position": 23,
+      "typ": "String"
+    },
+    {
+      "name": "pt_int_1",
+      "position": 24,
+      "typ": "I64"
+    },
+    {
+      "name": "pt_int_2",
+      "position": 25,
+      "typ": "I64"
+    },
+    {
+      "name": "pt_int_3",
+      "position": 26,
+      "typ": "I64"
+    },
+    {
+      "name": "pt_int_4",
+      "position": 27,
+      "typ": "I64"
+    },
+    {
+      "name": "pt_int_5",
+      "position": 28,
+      "typ": "I64"
+    },
+    {
+      "name": "pt_f64_1",
+      "position": 29,
+      "typ": "F64"
+    },
+    {
+      "name": "pt_f64_2",
+      "position": 30,
+      "typ": "F64"
+    },
+    {
+      "name": "pt_f64_3",
+      "position": 31,
+      "typ": "F64"
+    },
+    {
+      "name": "pt_f64_4",
+      "position": 32,
+      "typ": "F64"
+    },
+    {
+      "name": "pt_f64_5",
+      "position": 33,
+      "typ": "F64"
+    },
+    {
+      "name": "cashflows",
+      "position": 34,
+      "typ": "Cashflows"
+    }
+  ]
+}

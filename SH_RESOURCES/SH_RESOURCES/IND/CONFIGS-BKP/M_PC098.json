@@ -1,0 +1,22 @@
+{
+  "id": "M_PC098",
+  "name": "pcfc_balm_aggr",
+  "base_input_id": "M_OP091",
+  "file_type": "ProcessConfig",
+  "base_input_metadata": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/CONFIGS/M_OP091.json",
+  "additional_input": [
+    {
+      "input_type": "ExchangeRate",
+      "input_metadata": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/CONFIGS/M_IN054.json",
+      "id": "M_IN054"
+    },
+    {
+      "input_type": "AggrRule",
+      "input_metadata": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_SUMMARYDATA/IND/{ddmmyyyy}/RULES/AGGR_9000.txt",
+      "id": "9000"
+    }
+  ],
+  "base_output_id": "M_OP099",
+  "base_output_metadata": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/CONFIGS/M_OP099.json",
+  "additional_output": []
+}

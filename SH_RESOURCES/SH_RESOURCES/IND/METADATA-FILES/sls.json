@@ -1,0 +1,114 @@
+{
+    "fields": [
+      {
+        "name": "cf_type",
+        "typ": "String",
+        "position": 1
+      },
+      {
+        "name": "llgid",
+        "typ": "String",
+        "position": 2
+      },
+      {
+        "name": "abc",
+        "typ": "String",
+        "position": 3
+      },
+      {
+        "name": "def",
+        "typ": "String",
+        "position": 4
+      },
+      {
+        "name": "fgh",
+        "typ": "String",
+        "position": 5
+      },
+      {
+        "name": "dfgh",
+        "typ": "String",
+        "position": 6
+      },
+      {
+        "name": "dfghs",
+        "typ": "String",
+        "position": 7
+      },
+      {
+        "name": "wert",
+        "typ": "String",
+        "position": 8
+      },
+      {
+        "name": "asdf",
+        "typ": "String",
+        "position": 9
+      },
+      {
+        "name": "CURtckhRENCY",
+        "typ": "String",
+        "position": 10
+      },
+      {
+        "name": "LISTING_STATUS",
+        "typ": "String",
+        "position": 11
+      },
+      {
+        "name": "SECURED_UN-SECURED",
+        "typ": "String",
+        "position": 12
+      },
+      {
+        "name": "LISTED_EXCHANGE",
+        "typ": "String",
+        "position": 13
+      },
+      {
+        "name": "EQUITY_ID",
+        "typ": "String",
+        "position": 14
+      },
+      {
+        "name": "EQUITY_NAME",
+        "typ": "String",
+        "position": 15
+      },
+      {
+        "name": "EQUITY_ISSUER_TYPE",
+        "typ": "String",
+        "position": 16
+      },
+      {
+        "name": "ISSUER_COUNTRY",
+        "typ": "String",
+        "position": 17
+      },
+      {
+        "name": "ISIN_SCRIPT",
+        "typ": "String",
+        "position": 18
+      },
+      {
+        "name": "TREASURYGLCODE",
+        "typ": "String",
+        "position": 19
+      },
+      {
+        "name": "COUNTER_PARTY_ID",
+        "typ": "String",
+        "position": 20
+      },
+      {
+        "name": "GL_SUB_HEAD_CODE",
+        "typ": "String",
+        "position": 21
+      },
+      {
+        "name": "LEDGER_NAME",
+        "typ": "String",
+        "position": 22
+      }
+    ]
+  }

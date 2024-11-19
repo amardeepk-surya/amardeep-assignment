@@ -1,0 +1,11 @@
+CountryID|LLGID|ComputationType|DepositType
+INDIA|5202|Distribution|CA
+INDIA|5201|Distribution|CA
+INDIA|5290|Distribution|CA
+INDIA|5302|Distribution|SA
+INDIA|5301|Distribution|SA
+INDIA|5404|Maturity|TD
+INDIA|5401|Maturity|TD
+INDIA|5403|Maturity|TD
+INDIA|5402|Maturity|TD
+INDIA|9300|Distribution|Undrawn

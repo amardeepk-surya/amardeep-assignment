@@ -1,0 +1,66 @@
+{
+    "source": {
+      "input": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_CFDATA/IND/{ddmmyyyy}/peo_Bill Discounting.cf",
+      "metadata": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/METADATA-FILES/bills.json",
+      "required_fields": {
+        "account_id": "AccNum",
+        "customer_id": "CustID",
+        "ucc_id": "",
+        "outstanding_balance": "OutBal",
+        "interest_rate": "IntRate",
+        "currency": "CCY",
+        "npa_class": "",
+        "pt_str1": "",
+        "pt_str2": "",
+        "pt_str3": "",
+        "pt_str4": "",
+        "pt_str5": "",
+        "pt_str6": "",
+        "pt_str7": "",
+        "pt_str8": "",
+        "pt_str9": "",
+        "pt_str10": "",
+        "pt_int1": "",
+        "pt_int2": "",
+        "pt_int3": "",
+        "pt_int4": "",
+        "pt_int5": "",
+        "pt_f641": "",
+        "pt_f642": "",
+        "pt_f643": "",
+        "pt_f644": "",
+        "pt_f645": "",
+        "cashflows": "cashflows"
+      }
+    },
+    "rw_data": {
+      "input": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/MASTER/empty.txt",
+      "delimiter": "|",
+      "account_id_position": "0",
+      "rw_perc_position": "0"
+    },
+    "rm_data": {
+      "input": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/MASTER/empty.txt",
+      "delimiter": "|",
+      "account_id_position": "0"
+    },
+    "restructure": {
+      "input": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/MASTER/empty.txt",
+      "delimiter": "|",
+      "account_id_position": "0"
+    },
+    "desposit_classification": {
+      "input": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_CFDATA/IND/{ddmmyyyy}/deposit_classification.txt",
+      "delimiter": "|",
+      "customer_id_position": "1",
+      "file_id_position": "17"
+    },
+    "encumbrance": {
+      "input": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/MASTER/empty.txt",
+      "delimiter": "|",
+      "account_id_position": "0",
+      "encumbrance_days_position": "0"
+    },
+    "output": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_CFDATA/IND/{ddmmyyyy}/basel_advances_bills"
+  }
+  

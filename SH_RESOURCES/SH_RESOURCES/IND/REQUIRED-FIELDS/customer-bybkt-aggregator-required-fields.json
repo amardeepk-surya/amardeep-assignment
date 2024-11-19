@@ -1,0 +1,11 @@
+{
+    "cust_id": "custid",
+    "const_code": "constitution_code",
+    "final_constitution_code": "final_constitution_code",
+    "is_nwd_final": "is_nwd_final",
+    "lien_final_amt": "lien_final_amt",
+    "out_bal_amt": "out_bal_amt",
+    "reported_op_amt": "reported_opamt_ccy",
+    "reported_non_op_amt": "reported_nonopamt_ccy",
+    "cashflows": "cashflows"
+}

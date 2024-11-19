@@ -1,0 +1,49 @@
+{
+  "fields": [
+	  {
+            "position": 1,
+            "name": "AccNum",
+            "typ": "String"
+        },
+        {
+            "position": 2,
+            "name": "AccOpenDate",
+            "typ": "I64"
+        },
+        {
+            "position": 3,
+            "name": "AccruedIntBal",
+            "typ": "String"
+        },
+        {
+            "position": 4,
+            "name": "CCY",
+            "typ": "String"
+        },
+        {
+            "position": 5,
+            "name": "CustName",
+            "typ": "String"
+        },
+        {
+            "position": 6,
+            "name": "MaturityDate",
+            "typ": "I64"
+        },
+        {
+            "position": 7,
+            "name": "OutBal",
+            "typ": "F64"
+        },
+        {
+            "position": 8,
+            "name": "SanctionedLimit",
+            "typ": "F64"
+        },
+        {
+            "position": 9,
+            "name": "cashflows",
+            "typ": "Cashflows"
+        }
+  ]
+}

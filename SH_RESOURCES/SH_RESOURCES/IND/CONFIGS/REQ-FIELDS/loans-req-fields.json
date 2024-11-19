@@ -1,0 +1,10 @@
+{
+  "account_number" : "loan_account_no",
+"concat" : "loan_account_no",
+"cashflows" : "cashflows",
+"institution" : "currency_code",
+"interest_rate" : "",
+"next_rep_date" : "",
+"exchange_rate" : "",
+"npa" : ""
+}

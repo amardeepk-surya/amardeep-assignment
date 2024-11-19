@@ -1,0 +1,29 @@
+{
+  "id": "M_PC029",
+  "name": "sa_peo",
+  "base_input_id": "M_IN027",
+  "base_input_metadata": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/CONFIGS/M_IN027.json",
+  "file_type": "ProcessConfig",
+  "additional_input": [
+    {
+      "input_type": "Reference",
+      "id": "M_IN021",
+      "input_metadata": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/CONFIGS/M_IN021.json",
+      "join_type": "left"
+    },
+    {
+      "input_type": "Reference",
+      "id": "M_IN022",
+      "input_metadata": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/CONFIGS/M_IN022.json",
+      "join_type": "left"
+    },
+    {
+      "input_type": "Reference",
+      "id": "M_IN038",
+      "input_metadata": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/CONFIGS/M_IN038.json",
+      "join_type": "left"
+    }
+  ],
+  "base_output_id": "M_OP029",
+  "base_output_metadata": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/CONFIGS/M_OP029.json"
+}

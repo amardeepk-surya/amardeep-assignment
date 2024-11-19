@@ -1,0 +1,137 @@
+[
+  {
+    "name": "AccNum",
+    "position": 1,
+    "typ": "String"
+  },
+  {
+    "name": "AccOpenDate",
+    "position": 2,
+    "typ": "I64"
+  },
+  {
+    "name": "AccruedIntBal",
+    "position": 3,
+    "typ": "F64"
+  },
+  {
+    "name": "AccruedIntBalLCY",
+    "position": 4,
+    "typ": "F64"
+  },
+  {
+    "name": "CCY",
+    "position": 5,
+    "typ": "String"
+  },
+  {
+    "name": "CustClassification",
+    "position": 6,
+    "typ": "String"
+  },
+  {
+    "name": "CustID",
+    "position": 7,
+    "typ": "String"
+  },
+  {
+    "name": "GLCode",
+    "position": 8,
+    "typ": "String"
+  },
+  {
+    "name": "IntBM",
+    "position": 9,
+    "typ": "String"
+  },
+  {
+    "name": "IntRate",
+    "position": 10,
+    "typ": "F64"
+  },
+  {
+    "name": "IntSpread",
+    "position": 11,
+    "typ": "String"
+  },
+  {
+    "name": "IntType",
+    "position": 12,
+    "typ": "String"
+  },
+  {
+    "name": "LastResetDate",
+    "position": 13,
+    "typ": "I64"
+  },
+  {
+    "name": "NextResetDate",
+    "position": 14,
+    "typ": "I64"
+  },
+  {
+    "name": "NPAClass",
+    "position": 15,
+    "typ": "String"
+  },
+  {
+    "name": "ODLimitBal",
+    "position": 16,
+    "typ": "F64"
+  },
+  {
+    "name": "ODLimitExpiryDate",
+    "position": 17,
+    "typ": "I64"
+  },
+  {
+    "name": "OutBal",
+    "position": 18,
+    "typ": "F64"
+  },
+  {
+    "name": "OutBalLCY",
+    "position": 19,
+    "typ": "F64"
+  },
+  {
+    "name": "PrdCode",
+    "position": 20,
+    "typ": "String"
+  },
+  {
+    "name": "RepricingFreq",
+    "position": 21,
+    "typ": "String"
+  },
+  {
+    "name": "ResidentialFlag",
+    "position": 22,
+    "typ": "String"
+  },
+  {
+    "name": "RestructFlag",
+    "position": 23,
+    "typ": "String"
+  },
+  {
+    "name": "RiskWeight",
+    "position": 24,
+    "typ": "String"
+  },
+  {
+    "name": "SRcNPAClassification",
+    "position": 25,
+    "typ": "String"
+  },
+  {
+    "name": "UCIC",
+    "position": 26,
+    "typ": "String"
+  },
+  {
+    "name": "cashflows",
+    "position": 27,
+    "typ": "Cashflows"
+  }
+]

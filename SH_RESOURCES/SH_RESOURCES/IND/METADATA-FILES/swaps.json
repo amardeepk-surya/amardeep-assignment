@@ -1,0 +1,99 @@
+{
+  "fields": [
+    {
+      "name": "AmountPayLeg",
+      "position": 1,
+      "typ": "F64"
+    },
+    {
+      "name": "AmountPayLegInLCY",
+      "position": 2,
+      "typ": "F64"
+    },
+    {
+      "name": "AmountRecvLeg",
+      "position": 3,
+      "typ": "String"
+    },
+    {
+      "name": "AmountRecvLegInLCY",
+      "position": 4,
+      "typ": "F64"
+    },
+    {
+      "name": "InternalExternalDealType",
+      "position": 5,
+      "typ": "String"
+    },
+    {
+      "name": "PayLegCCY",
+      "position": 6,
+      "typ": "String"
+    },
+    {
+      "name": "ProfitAndLossAmount",
+      "position": 7,
+      "typ": "String"
+    },
+    {
+      "name": "RecvLegCCY",
+      "position": 8,
+      "typ": "F64"
+    },
+    {
+      "name": "RevalLoss",
+      "position": 9,
+      "typ": "String"
+    },
+    {
+      "name": "RevalProfit",
+      "position": 10,
+      "typ": "String"
+    },
+    {
+      "name": "RevalRate",
+      "position": 11,
+      "typ": "F64"
+    },
+    {
+      "name": "TransactionType",
+      "position": 12,
+      "typ": "String"
+    },
+    {
+      "name": "DealNum",
+      "position": 13,
+      "typ": "String"
+    },
+    {
+      "name": "DealValueDate",
+      "position": 14,
+      "typ": "I64"
+    },
+    {
+      "name": "MaturityDate",
+      "position": 15,
+      "typ": "I64"
+    },
+    {
+      "name": "DealRef",
+      "position": 16,
+      "typ": "String"
+    },
+    {
+      "name": "CounterParty",
+      "position": 17,
+      "typ": "String"
+    },
+    {
+      "name": "PrdDesc",
+      "position": 18,
+      "typ": "String"
+    },
+    {
+      "name": "cashflows",
+      "position": 19,
+      "typ": "Cashflows"
+    }
+  ]
+}

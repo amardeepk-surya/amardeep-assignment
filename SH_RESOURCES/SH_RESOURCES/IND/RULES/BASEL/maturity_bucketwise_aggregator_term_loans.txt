@@ -1,0 +1,5 @@
+1|1|0|npa_class|EQ|NPA|1027101510
+2|1|0|deposit_cls|EQ|1|1027101001
+3|1|0|deposit_cls|EQ|3|1027101016
+4|1|0|deposit_cls|EQ|7|OR
+4|1|1|deposit_cls|EQ|0|1027101716

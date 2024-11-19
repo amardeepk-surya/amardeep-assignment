@@ -1,0 +1,249 @@
+{
+  "fields": [
+    {
+      "name": "BV",
+      "position": 1,
+      "typ": "String"
+    },
+    {
+      "name": "CCY",
+      "position": 2,
+      "typ": "String"
+    },
+    {
+      "name": "DealNum",
+      "position": 3,
+      "typ": "String"
+    },
+    {
+      "name": "DealValueDate",
+      "position": 4,
+      "typ": "I64"
+    },
+    {
+      "name": "FV",
+      "position": 5,
+      "typ": "String"
+    },
+    {
+      "name": "GLCode",
+      "position": 6,
+      "typ": "String"
+    },
+    {
+      "name": "InstrSubType",
+      "position": 7,
+      "typ": "String"
+    },
+    {
+      "name": "InstrType",
+      "position": 8,
+      "typ": "String"
+    },
+    {
+      "name": "IntBM",
+      "position": 9,
+      "typ": "String"
+    },
+    {
+      "name": "IntPayFreq",
+      "position": 10,
+      "typ": "String"
+    },
+    {
+      "name": "IntRate",
+      "position": 11,
+      "typ": "F64"
+    },
+    {
+      "name": "IntSpread",
+      "position": 12,
+      "typ": "F64"
+    },
+    {
+      "name": "IntType",
+      "position": 13,
+      "typ": "String"
+    },
+    {
+      "name": "ISIN",
+      "position": 14,
+      "typ": "String"
+    },
+    {
+      "name": "IssueDate",
+      "position": 15,
+      "typ": "I64"
+    },
+    {
+      "name": "LastIntPayDate",
+      "position": 16,
+      "typ": "I64"
+    },
+    {
+      "name": "LastResetDate",
+      "position": 17,
+      "typ": "I64"
+    },
+    {
+      "name": "MaturityDate",
+      "position": 18,
+      "typ": "I64"
+    },
+    {
+      "name": "MV",
+      "position": 19,
+      "typ": "String"
+    },
+    {
+      "name": "NextIntPayDate",
+      "position": 20,
+      "typ": "I64"
+    },
+    {
+      "name": "NextResetDate",
+      "position": 21,
+      "typ": "I64"
+    },
+    {
+      "name": "NPIClassification",
+      "position": 22,
+      "typ": "String"
+    },
+    {
+      "name": "PortfolioType",
+      "position": 23,
+      "typ": "String"
+    },
+    {
+      "name": "SLRClass",
+      "position": 24,
+      "typ": "String"
+    },
+    {
+      "name": "AccruedIntBal",
+      "position": 25,
+      "typ": "String"
+    },
+    {
+      "name": "AccruedIntGLCode",
+      "position": 26,
+      "typ": "String"
+    },
+    {
+      "name": "ContratualDays",
+      "position": 27,
+      "typ": "String"
+    },
+    {
+      "name": "FaceValuePerUnits",
+      "position": 28,
+      "typ": "String"
+    },
+    {
+      "name": "GuranterSubType",
+      "position": 29,
+      "typ": "String"
+    },
+    {
+      "name": "GuranterType",
+      "position": 30,
+      "typ": "String"
+    },
+    {
+      "name": "IsListed",
+      "position": 31,
+      "typ": "String"
+    },
+    {
+      "name": "IssuerCountry",
+      "position": 32,
+      "typ": "String"
+    },
+    {
+      "name": "IssuerIndustry",
+      "position": 33,
+      "typ": "String"
+    },
+    {
+      "name": "IssuerName",
+      "position": 34,
+      "typ": "String"
+    },
+    {
+      "name": "IssuerSector",
+      "position": 35,
+      "typ": "String"
+    },
+    {
+      "name": "IssuerType",
+      "position": 36,
+      "typ": "String"
+    },
+    {
+      "name": "IssurSubtype",
+      "position": 37,
+      "typ": "String"
+    },
+    {
+      "name": "Mduration",
+      "position": 38,
+      "typ": "String"
+    },
+    {
+      "name": "MTMRate",
+      "position": 39,
+      "typ": "String"
+    },
+    {
+      "name": "PutDate",
+      "position": 40,
+      "typ": "I64"
+    },
+    {
+      "name": "Quantity",
+      "position": 41,
+      "typ": "String"
+    },
+    {
+      "name": "Rating",
+      "position": 42,
+      "typ": "String"
+    },
+    {
+      "name": "RatingAgency",
+      "position": 43,
+      "typ": "String"
+    },
+    {
+      "name": "ResidualDays",
+      "position": 44,
+      "typ": "String"
+    },
+    {
+      "name": "SecName",
+      "position": 45,
+      "typ": "String"
+    },
+    {
+      "name": "TotalInterestBal",
+      "position": 46,
+      "typ": "String"
+    },
+    {
+      "name": "YieldRate",
+      "position": 47,
+      "typ": "String"
+    },
+    {
+      "name": "cashflows1",
+      "position": 48,
+      "typ": "Cashflows"
+    },
+    {
+      "name": "cashflows2",
+      "position": 49,
+      "typ": "Cashflows"
+    }
+  ]
+}

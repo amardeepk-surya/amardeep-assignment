@@ -1,0 +1,114 @@
+{
+  "fields": [
+    {
+      "name": "category",
+      "position": 1,
+      "typ": "String"
+    },
+    {
+      "name": "customer_id",
+      "position": 2,
+      "typ": "String"
+    },
+    {
+      "name": "uccid",
+      "position": 3,
+      "typ": "String"
+    },
+    {
+      "name": "constitution_code",
+      "position": 4,
+      "typ": "String"
+    },
+    {
+      "name": "final_constitution_code",
+      "position": 5,
+      "typ": "String"
+    },
+    {
+      "name": "currency",
+      "position": 6,
+      "typ": "String"
+    },
+    {
+      "name": "total_dep_amt_lcy",
+      "position": 7,
+      "typ": "F64"
+    },
+    {
+      "name": "total_dep_amt_ccy",
+      "position": 8,
+      "typ": "F64"
+    },
+    {
+      "name": "tot_exposure_amt_lcy",
+      "position": 9,
+      "typ": "F64"
+    },
+    {
+      "name": "tot_exposure_amt_ccy",
+      "position": 10,
+      "typ": "F64"
+    },
+    {
+      "name": "tot_dep_exp_amt_lcy",
+      "position": 11,
+      "typ": "F64"
+    },
+    {
+      "name": "tot_dep_exp_amt_ccy",
+      "position": 12,
+      "typ": "F64"
+    },
+    {
+      "name": "lcr_classification",
+      "position": 13,
+      "typ": "String"
+    },
+    {
+      "name": "tot_dep_exp_amt_lcy_ucic",
+      "position": 14,
+      "typ": "F64"
+    },
+    {
+      "name": "tot_dep_exp_amt_ccy_ucic",
+      "position": 15,
+      "typ": "F64"
+    },
+    {
+      "name": "tot_ipo_dep_amt_lcy",
+      "position": 16,
+      "typ": "F64"
+    },
+    {
+      "name": "tot_ipo_dep_amt_ccy",
+      "position": 17,
+      "typ": "F64"
+    },
+    {
+      "name": "class_1",
+      "position": 18,
+      "typ": "String"
+    },
+    {
+      "name": "class_2",
+      "position": 19,
+      "typ": "String"
+    },
+    {
+      "name": "class_3",
+      "position": 20,
+      "typ": "String"
+    },
+    {
+      "name": "class_4",
+      "position": 21,
+      "typ": "String"
+    },
+    {
+      "name": "class_5",
+      "position": 22,
+      "typ": "String"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+1|1|0|DealType|EQ|LAFP|1302
+2|1|0|DealType|EQ|TPL|1301

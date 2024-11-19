@@ -1,0 +1,139 @@
+{
+  "fields": [
+	  {
+            "position": 1,
+            "name": "AccNum",
+            "typ": "String"
+        },
+        {
+            "position": 2,
+            "name": "AccOpenDate",
+            "typ": "I64"
+        },
+        {
+            "position": 3,
+            "name": "AccruedIntBal",
+            "typ": "F64"
+        },
+        {
+            "position": 4,
+            "name": "AccruedIntBalLCY",
+            "typ": "F64"
+        },
+        {
+            "position": 5,
+            "name": "CCY",
+            "typ": "String"
+        },
+        {
+            "position": 6,
+            "name": "CustClassification",
+            "typ": "String"
+        },
+        {
+            "position": 7,
+            "name": "CustID",
+            "typ": "String"
+        },
+        {
+            "position": 8,
+            "name": "GLCode",
+            "typ": "String"
+        },
+        {
+            "position": 9,
+            "name": "IntBM",
+            "typ": "String"
+        },
+        {
+            "position": 10,
+            "name": "IntRate",
+            "typ": "F64"
+        },
+        {
+            "position": 11,
+            "name": "IntSpread",
+            "typ": "String"
+        },
+        {
+            "position": 12,
+            "name": "IntType",
+            "typ": "String"
+        },
+        {
+            "position": 13,
+            "name": "LastResetDate",
+            "typ": "I64"
+        },
+        {
+            "position": 14,
+            "name": "NextResetDate",
+            "typ": "I64"
+        },
+        {
+            "position": 15,
+            "name": "NPAClass",
+            "typ": "String"
+        },
+        {
+            "position": 16,
+            "name": "ODLimitBal",
+            "typ": "F64"
+        },
+        {
+            "position": 17,
+            "name": "ODLimitExpiryDate",
+            "typ": "I64"
+        },
+        {
+            "position": 18,
+            "name": "OutBal",
+            "typ": "F64"
+        },
+        {
+            "position": 19,
+            "name": "OutBalLCY",
+            "typ": "F64"
+        },
+        {
+            "position": 20,
+            "name": "PrdCode",
+            "typ": "String"
+        },
+        {
+            "position": 21,
+            "name": "RepricingFreq",
+            "typ": "String"
+        },
+        {
+            "position": 22,
+            "name": "ResidentialFlag",
+            "typ": "String"
+        },
+        {
+            "position": 23,
+            "name": "RestructFlag",
+            "typ": "String"
+        },
+        {
+            "position": 24,
+            "name": "RiskWeight",
+            "typ": "String"
+        },
+        {
+            "position": 25,
+            "name": "SRcNPAClassification",
+            "typ": "String"
+        },
+        {
+            "position": 26,
+            "name": "UCIC",
+            "typ": "String"
+        },
+        {
+            "position": 27,
+            "name": "cashflows",
+            "typ": "Cashflows"
+        }
+  ]
+}

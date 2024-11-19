@@ -1,0 +1,10 @@
+{
+  "rtl_cust_input_file": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_CFDATA/IND/{ddmmyyyy}/classifier_custmaster_rtl.txt",
+  "nrtl_cust_input_file": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_CFDATA/IND/{ddmmyyyy}/classifier_custmaster_nrtl.txt",
+  "exchange_rate_file": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/MASTER/empty.txt",
+  "exposure_data_file": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/MASTER/empty.txt",
+  "is_exposure_amt_consolidated": false,
+  "output_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_CFDATA/IND/{ddmmyyyy}/customer_master_aggregator",
+  "group_consti_overide_file": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/MASTER/empty.txt",
+  "local_currency": "INR"
+}

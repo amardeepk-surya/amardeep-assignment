@@ -1,0 +1,30 @@
+{
+  "input_file": {
+      "input_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_INPUT/IND/{ddmmyyyy}/crr_slr_ndtl_param.txt",
+      "seperator":"|",
+      "skip_header":1
+    },
+    "crr_file":{
+      "input_file_path":"/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_INPUT/IND/{ddmmyyyy}/CRR_Bal_10AM.xls",
+      "sheet_name":"Sheet1"
+
+    },
+    "investments": {
+      "input_file": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_INPUT/IND/{ddmmyyyy}/BOC_INVESTMENTS.txt",
+      "metadata_file": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/METADATA-FILES/investments.json",
+      "inv_rule_file": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/RULES/BASEL/crr_slr_investment_rule_file.txt",
+      "encum_rule_file": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/RULES/BASEL/crr_slr_encumbered_investments_rule_file.txt",
+      "inv_amount_field":"balance",
+      "encum_amount_field":"emcumbered_bal",
+      "seperator":"|",
+      "skip_header":1
+    },
+     "gl": {
+     "input_file": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_INPUT/IND/{ddmmyyyy}/BOC_GL.txt",
+      "metadata_file": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/METADATA-FILES/gl.json",
+      "rule_file": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/RULES/BASEL/crr_slr_gl_rule_file.txt",
+      "amount_field":"bal",
+      "seperator":"|",
+      "skip_header":1
+    }
+  }

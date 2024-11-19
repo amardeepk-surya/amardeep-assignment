@@ -1,0 +1,388 @@
+{
+  "id": "M_OP099",
+  "file_type": "OutputMetadata",
+  "name": "loans_peo",
+  "input": "{E_1_SH_CFDATA}/{B_1_SH_CFDATA}/term_loans.cf",
+  "fields": [
+    {
+      "name": "loan_account_no",
+      "id": 1,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "loan_id",
+      "id": 2,
+      "data_type": "Amount"
+    },
+    {
+      "name": "customer_id",
+      "id": 3,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "product_id",
+      "id": 4,
+      "data_type": "Amount"
+    },
+    {
+      "name": "product_desc",
+      "id": 5,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "product_type",
+      "id": 6,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "recovery_type",
+      "id": 7,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "cust_name",
+      "id": 8,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "disbursal_date",
+      "id": 9,
+      "data_type": "ShortDate"
+    },
+    {
+      "name": "due_day",
+      "id": 10,
+      "data_type": "ShortDate"
+    },
+    {
+      "name": "maturity_date",
+      "id": 11,
+      "data_type": "ShortDate"
+    },
+    {
+      "name": "original_tenure",
+      "id": 12,
+      "data_type": "Amount"
+    },
+    {
+      "name": "current_tenure",
+      "id": 13,
+      "data_type": "Amount"
+    },
+    {
+      "name": "balance_installments",
+      "id": 14,
+      "data_type": "Amount"
+    },
+    {
+      "name": "installment_type",
+      "id": 15,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "int_recry_freq",
+      "id": 16,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "principal_recry_freq",
+      "id": 17,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "days_past_due",
+      "id": 18,
+      "data_type": "ShortDate"
+    },
+    {
+      "name": "asset_clsfn",
+      "id": 19,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "int_type",
+      "id": 20,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "cust_int_rate",
+      "id": 21,
+      "data_type": "InterestRate"
+    },
+    {
+      "name": "rate_type",
+      "id": 22,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "overdue_prin_amount",
+      "id": 23,
+      "data_type": "Amount"
+    },
+    {
+      "name": "overdue_interest_amount",
+      "id": 24,
+      "data_type": "Amount"
+    },
+    {
+      "name": "os_prin",
+      "id": 25,
+      "data_type": "Amount"
+    },
+    {
+      "name": "emi_amount",
+      "id": 26,
+      "data_type": "Amount"
+    },
+    {
+      "name": "accrued_not_recieved_int",
+      "id": 27,
+      "data_type": "Amount"
+    },
+    {
+      "name": "last_payment_date",
+      "id": 28,
+      "data_type": "ShortDate"
+    },
+    {
+      "name": "next_instmt_due_date",
+      "id": 29,
+      "data_type": "ShortDate"
+    },
+    {
+      "name": "branch_id",
+      "id": 30,
+      "data_type": "Amount"
+    },
+    {
+      "name": "currency_code",
+      "id": 31,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "fraud",
+      "id": 32,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "restructure",
+      "id": 33,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "A1",
+      "id": 34,
+      "data_type": "Amount"
+    },
+    {
+      "name": "A2",
+      "id": 35,
+      "data_type": "Amount"
+    },
+    {
+      "name": "A3",
+      "id": 36,
+      "data_type": "Amount"
+    },
+    {
+      "name": "A4",
+      "id": 37,
+      "data_type": "Amount"
+    },
+    {
+      "name": "A5",
+      "id": 38,
+      "data_type": "Amount"
+    },
+    {
+      "name": "A6",
+      "id": 39,
+      "data_type": "Amount"
+    },
+    {
+      "name": "A7",
+      "id": 40,
+      "data_type": "Amount"
+    },
+    {
+      "name": "A8",
+      "id": 41,
+      "data_type": "ShortDate"
+    },
+    {
+      "name": "A9",
+      "id": 42,
+      "data_type": "ShortDate"
+    },
+    {
+      "name": "A10",
+      "id": 43,
+      "data_type": "ShortDate"
+    },
+    {
+      "name": "A11",
+      "id": 44,
+      "data_type": "ShortDate"
+    },
+    {
+      "name": "A12",
+      "id": 45,
+      "data_type": "ShortDate"
+    },
+    {
+      "name": "A13",
+      "id": 46,
+      "data_type": "ShortDate"
+    },
+    {
+      "name": "A14",
+      "id": 47,
+      "data_type": "ShortDate"
+    },
+    {
+      "name": "A15",
+      "id": 48,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "A16",
+      "id": 49,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "A17",
+      "id": 50,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "A18",
+      "id": 51,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "A19",
+      "id": 52,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "A20",
+      "id": 53,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "A21",
+      "id": 54,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "A22",
+      "id": 55,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "A23",
+      "id": 56,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "A24",
+      "id": 57,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "A25",
+      "id": 58,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "A26",
+      "id": 59,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "A27",
+      "id": 60,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "A28",
+      "id": 61,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "A29",
+      "id": 62,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "A30",
+      "id": 63,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "A31",
+      "id": 64,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "A32",
+      "id": 65,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "A33",
+      "id": 66,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "A34",
+      "id": 67,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "A35",
+      "id": 68,
+      "data_type": "String(max)"
+    },
+    {
+      "name": "A36",
+      "id": 69,
+      "data_type": "ShortDate"
+    },
+    {
+      "name": "A37",
+      "id": 70,
+      "data_type": "ShortDate"
+    },
+    {
+      "name": "A38",
+      "id": 71,
+      "data_type": "ShortDate"
+    },
+    {
+      "name": "A39",
+      "id": 72,
+      "data_type": "ShortDate"
+    },
+    {
+      "name": "A40",
+      "id": 73,
+      "data_type": "ShortDate"
+    },
+    {
+      "name": "total_principal",
+      "id": 74,
+      "data_type": "Amount"
+    },
+    {
+      "name": "total_interest",
+      "id": 75,
+      "data_type": "Amount"
+    },
+    {
+      "name": "cashflows",
+      "id": 76,
+      "data_type": "Cashflows"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+1|1|0|final_constitution_code|EQ|P|1
+2|1|0|total_dep_amt_lcy|LTEQ|75000000|3

@@ -1,0 +1,104 @@
+{
+"fields": [
+	{
+      "position": 1,
+      "name": "SalaryFlag",
+      "typ": "String"
+    },
+    {
+      "position": 2,
+      "name": "AssetRelationFlag",
+      "typ": "String"
+    },
+    {
+      "position": 3,
+      "name": "MultipleDepositFlag",
+      "typ": "String"
+    },
+    {
+      "position": 4,
+      "name": "AccNum",
+      "typ": "String"
+    },
+    {
+      "position": 5,
+      "name": "PrdCode",
+      "typ": "String"
+    },
+    {
+      "position": 6,
+      "name": "OutBal",
+      "typ": "F64"
+    },
+    {
+      "position": 7,
+      "name": "CCY",
+      "typ": "String"
+    },
+    {
+      "position": 8,
+      "name": "IntRate",
+      "typ": "F64"
+    },
+    {
+      "position": 9,
+      "name": "CustID",
+      "typ": "String"
+    },
+    {
+      "position": 10,
+      "name": "AccOpenDate",
+      "typ": "I64"
+    },
+    {
+      "position": 11,
+      "name": "AccruedIntBal",
+      "typ": "String"
+    },
+    {
+      "position": 12,
+      "name": "ALMLine",
+      "typ": "String"
+    },
+    {
+      "position": 13,
+      "name": "GLCode",
+      "typ": "String"
+    },
+    {
+      "position": 14,
+      "name": "GrpID",
+      "typ": "String"
+    },
+    {
+      "position": 15,
+      "name": "IntType",
+      "typ": "String"
+    },
+    {
+      "position": 16,
+      "name": "OutBalLCY",
+      "typ": "F64"
+    },
+    {
+      "position": 17,
+      "name": "PrdDesc",
+      "typ": "String"
+    },
+    {
+      "position": 18,
+      "name": "CustName",
+      "typ": "String"
+    },
+    {
+      "position": 19,
+      "name": "CustClassification",
+      "typ": "String"
+    },
+    {
+      "position": 20,
+      "name": "DormantStatus",
+      "typ": "String"
+    }
+  ]
+}

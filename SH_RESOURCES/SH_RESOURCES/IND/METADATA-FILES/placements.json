@@ -1,0 +1,49 @@
+{
+  "fields": [
+    {
+      "name": "CCY",
+      "position": 1,
+      "typ": "String"
+    },
+    {
+      "name": "DealNum",
+      "position": 2,
+      "typ": "String"
+    },
+    {
+      "name": "DealValueDate",
+      "position": 3,
+      "typ": "I64"
+    },
+    {
+      "name": "IntAccrued",
+      "position": 4,
+      "typ": "F64"
+    },
+    {
+      "name": "IntRate",
+      "position": 5,
+      "typ": "F64"
+    },
+    {
+      "name": "MaturityDate",
+      "position": 6,
+      "typ": "I64"
+    },
+    {
+      "name": "OutBalLCY",
+      "position": 7,
+      "typ": "F64"
+    },
+    {
+      "name": "CounterpartyName",
+      "position": 8,
+      "typ": "String"
+    },
+    {
+      "name": "cashflows",
+      "position": 9,
+      "typ": "Cashflows"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "fields": [
+    {
+      "name": "AccNum",
+      "position": 1,
+      "typ": "String"
+    },
+    {
+      "name": "AccOpenDate",
+      "position": 2,
+      "typ": "I64"
+    },
+    {
+      "name": "CCY",
+      "position": 3,
+      "typ": "String"
+    },
+    {
+      "name": "ClosureDate",
+      "position": 4,
+      "typ": "I64"
+    },
+    {
+      "name": "CustID",
+      "position": 5,
+      "typ": "String"
+    },
+    {
+      "name": "ExpiryDate",
+      "position": 6,
+      "typ": "I64"
+    },
+    {
+      "name": "GLCode",
+      "position": 7,
+      "typ": "String"
+    },
+    {
+      "name": "IssueDate",
+      "position": 8,
+      "typ": "I64"
+    },
+    {
+      "name": "OutBal",
+      "position": 9,
+      "typ": "F64"
+    },
+    {
+      "name": "cashflows",
+      "position": 10,
+      "typ": "Cashflows"
+    }
+  ]
+}

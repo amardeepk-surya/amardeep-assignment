@@ -1,0 +1,180 @@
+{
+"fields": [
+	{
+            "position": 1,
+            "name": "S",
+            "typ": "String"
+        },
+        {
+            "position": 2,
+            "name": "M",
+            "typ": "String"
+        },
+        {
+            "position": 3,
+            "name": "SalaryFlag",
+            "typ": "String"
+        },
+        {
+            "position": 4,
+            "name": "AssetRelationFlag",
+            "typ": "String"
+        },
+        {
+            "position": 5,
+            "name": "MultipleDepositFlag",
+            "typ": "String"
+        },
+        {
+            "position": 6,
+            "name": "AccNum",
+            "typ": "String"
+        },
+        {
+            "position": 7,
+            "name": "AccOpenDate",
+            "typ": "I64"
+        },
+        {
+            "position": 8,
+            "name": "AccruedIntBal",
+            "typ": "String"
+        },
+        {
+            "position": 9,
+            "name": "CCY",
+            "typ": "String"
+        },
+        {
+            "position": 10,
+            "name": "CustClassification",
+            "typ": "String"
+        },
+        {
+            "position": 11,
+            "name": "CustID",
+            "typ": "String"
+        },
+        {
+            "position": 12,
+            "name": "CustRelationshipFlag1",
+            "typ": "String"
+        },
+        {
+            "position": 13,
+            "name": "CustRelationshipFlag2",
+            "typ": "String"
+        },
+        {
+            "position": 14,
+            "name": "CustRelationshipFlag3",
+            "typ": "String"
+        },
+        {
+            "position": 15,
+            "name": "CustRelationshipFlag4",
+            "typ": "String"
+        },
+        {
+            "position": 16,
+            "name": "CustRelationshipFlag5",
+            "typ": "String"
+        },
+        {
+            "position": 17,
+            "name": "GLCode",
+            "typ": "String"
+        },
+        {
+            "position": 18,
+            "name": "IntBM",
+            "typ": "String"
+        },
+        {
+            "position": 19,
+            "name": "InterestCalType",
+            "typ": "String"
+        },
+        {
+            "position": 20,
+            "name": "IntRate",
+            "typ": "F64"
+        },
+        {
+            "position": 21,
+            "name": "IntSpread",
+            "typ": "String"
+        },
+        {
+            "position": 22,
+            "name": "IntType",
+            "typ": "String"
+        },
+        {
+            "position": 23,
+            "name": "LastResetDate",
+            "typ": "I64"
+        },
+        {
+            "position": 24,
+            "name": "LockTillDate",
+            "typ": "String"
+        },
+        {
+            "position": 25,
+            "name": "MaturityDate",
+            "typ": "I64"
+        },
+        {
+            "position": 26,
+            "name": "NextResetDate",
+            "typ": "I64"
+        },
+        {
+            "position": 27,
+            "name": "OutBal",
+            "typ": "F64"
+        },
+        {
+            "position": 28,
+            "name": "OutBalLCY",
+            "typ": "F64"
+        },
+        {
+            "position": 29,
+            "name": "PrdCode",
+            "typ": "String"
+        },
+        {
+            "position": 30,
+            "name": "RepricingFreq",
+            "typ": "String"
+        },
+        {
+            "position": 31,
+            "name": "UCIC",
+            "typ": "String"
+        },
+        {
+            "position": 32,
+            "name": "WDFlag",
+            "typ": "String"
+        },
+        {
+            "position": 33,
+            "name": "IntCalBasis",
+            "typ": "String"
+        },
+        {
+            "position": 34,
+            "name": "IntPayFreq",
+            "typ": "String"
+        },
+        {
+            "position": 35,
+            "name": "cashflows",
+            "typ": "Cashflows"
+        }
+  ]
+}
+

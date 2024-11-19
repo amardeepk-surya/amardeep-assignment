@@ -1,0 +1,16 @@
+1|1|0|SLRClass|EQ|S|AND
+1|1|1|PortfolioType|EQ|AFS|11510
+2|1|0|SLRClass|EQ|S|AND
+2|1|1|PortfolioType|EQ|HFT|11511
+3|1|0|SLRClass|EQ|S|AND
+3|1|1|PortfolioType|EQ|HTM|11512
+4|1|0|SLRClass|EQ|S|AND
+4|1|1|PortfolioType|EQ|FVTPL|11513
+5|1|0|SLRClass|EQ|NS|AND
+5|1|1|PortfolioType|EQ|AFS|11610
+6|1|0|SLRClass|EQ|NS|AND
+6|1|1|PortfolioType|EQ|HFT|11611
+7|1|0|SLRClass|EQ|NS|AND
+7|1|1|PortfolioType|EQ|HTM|11612
+8|1|0|SLRClass|EQ|NS|AND
+8|1|1|PortfolioType|EQ|FVTPL|11613

@@ -1,0 +1,79 @@
+{
+  "fields": [
+    {
+      "name": "AccNum",
+      "position": 1,
+      "typ": "String"
+    },
+    {
+      "name": "CCY",
+      "position": 2,
+      "typ": "String"
+    },
+    {
+      "name": "AccOpenDate",
+      "position": 3,
+      "typ": "I64"
+    },
+    {
+      "name": "CustConstitutionCode",
+      "position": 4,
+      "typ": "String"
+    },
+    {
+      "name": "GLCode",
+      "position": 5,
+      "typ": "String"
+    },
+    {
+      "name": "IntRate",
+      "position": 6,
+      "typ": "F64"
+    },
+    {
+      "name": "MaturityAmt",
+      "position": 7,
+      "typ": "F64"
+    },
+    {
+      "name": "MaturityDate",
+      "position": 8,
+      "typ": "I64"
+    },
+    {
+      "name": "NPAClass",
+      "position": 9,
+      "typ": "String"
+    },
+    {
+      "name": "OrgBillAmt",
+      "position": 10,
+      "typ": "F64"
+    },
+    {
+      "name": "OutBal",
+      "position": 11,
+      "typ": "F64"
+    },
+    {
+      "name": "OutBalLCY",
+      "position": 12,
+      "typ": "F64"
+    },
+    {
+      "name": "PrdCode",
+      "position": 13,
+      "typ": "String"
+    },
+    {
+      "name": "ProvisionBal",
+      "position": 14,
+      "typ": "F64"
+    },
+    {
+      "name": "cashflows",
+      "position": 15,
+      "typ": "Cashflows"
+    }
+  ]
+}

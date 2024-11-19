@@ -1,0 +1,10 @@
+{
+  "id": "M_PC090",
+  "name": "pcfc_peo",
+  "base_input_id": "M_IN069",
+  "base_input_metadata": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/CONFIGS/M_IN069.json",
+  "file_type": "ProcessConfig",
+  "additional_input": [],
+  "base_output_id": "M_OP091",
+  "base_output_metadata": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/CONFIGS/M_OP091.json"
+}

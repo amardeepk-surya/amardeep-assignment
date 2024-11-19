@@ -1,0 +1,16 @@
+1|1|0|ALMLine|EQ|Cash|11001
+2|1|0|ALMLine|EQ|Balance with RBI|11100
+3|1|0|ALMLine|EQ|Balance with Bank - CA|11202
+4|1|0|ALMLine|EQ|Fixed Assets|13700
+5|1|0|ALMLine|EQ|Other Assets|13920
+6|1|0|ALMLine|EQ|Capital|5001
+7|1|0|ALMLine|EQ|Reserves & Surplus|5101
+8|1|0|ALMLine|EQ|Interest Payable|7000
+9|1|0|ALMLine|EQ|Provisions|8000
+10|1|0|ALMLine|EQ|Other Liabilities|OR
+10|1|1|ALMLine|EQ|Tax|8110
+11|1|0|ALMLine|EQ|Reserves and Surplus|5101
+12|1|0|ALMLine|EQ|Current Account - Bank|5290
+13|1|0|ALMLine|EQ|NPA|13490
+14|1|0|ALMLine|EQ|OA - Inter Office Adjustments|3921
+15|1|0|CatCode1|EQ|Net|8199

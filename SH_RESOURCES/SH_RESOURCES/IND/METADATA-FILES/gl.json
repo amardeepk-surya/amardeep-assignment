@@ -1,0 +1,84 @@
+{
+  "fields": [
+    {
+      "name": "GLCode",
+      "position": 1,
+      "typ": "String"
+    },
+    {
+      "name": "CCY",
+      "position": 2,
+      "typ": "String"
+    },
+    {
+      "name": "CRBal",
+      "position": 3,
+      "typ": "F64"
+    },
+    {
+      "name": "DRBal",
+      "position": 4,
+      "typ": "F64"
+    },
+    {
+      "name": "OutBalLCY",
+      "position": 5,
+      "typ": "F64"
+    },
+    {
+      "name": "OutBal",
+      "position": 6,
+      "typ": "F64"
+    },
+    {
+      "name": "ALMLine",
+      "position": 7,
+      "typ": "String"
+    },
+    {
+      "name": "BRCode",
+      "position": 8,
+      "typ": "String"
+    },
+    {
+      "name": "CatCode1",
+      "position": 9,
+      "typ": "String"
+    },
+    {
+      "name": "CatCode2",
+      "position": 10,
+      "typ": "String"
+    },
+    {
+      "name": "CatCode3",
+      "position": 11,
+      "typ": "String"
+    },
+    {
+      "name": "NetBal",
+      "position": 12,
+      "typ": "F64"
+    },
+    {
+      "name": "ALCode",
+      "position": 13,
+      "typ": "String"
+    },
+    {
+      "name": "ALType",
+      "position": 14,
+      "typ": "String"
+    },
+    {
+      "name": "FTPLine",
+      "position": 15,
+      "typ": "String"
+    },
+    {
+      "name": "PLLine",
+      "position": 16,
+      "typ": "String"
+    }
+  ]
+}

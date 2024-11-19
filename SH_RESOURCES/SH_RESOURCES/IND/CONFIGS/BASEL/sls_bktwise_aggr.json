@@ -1,0 +1,16 @@
+{
+    "input": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_SUMMARYDATA/IND/{ddmmyyyy}/merge_sls.txt",
+    "bucketing_logic": "EQUITABLE",
+    "equitable_distribution": {
+      "schema": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/MASTER/sls_bkt_schema.txt"
+    },
+    "specific_day_distribution": {
+      "llgwise_bucket": ""
+    },
+    "country": "IND",
+    "currency": ["INR"],
+    "rules": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/RULES/BASEL/sls.txt",
+    "metadata": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/METADATA-FILES/sls.json",
+    "default_llg": "9999",
+    "output": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_SUMMARYDATA/IND/{ddmmyyyy}/sls_bucketwise.txt"
+}

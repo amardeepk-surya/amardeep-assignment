@@ -1,0 +1,359 @@
+{
+    "fields": [
+        {
+            "name": "uccid",
+            "position": 1,
+            "typ": "String"
+        },
+        {
+            "name": "T1",
+            "position": 2,
+            "typ": "String"
+        },
+        {
+            "name": "T2",
+            "position": 3,
+            "typ": "String"
+        },
+        {
+            "name": "T3",
+            "position": 4,
+            "typ": "String"
+        },
+        {
+            "name": "T4",
+            "position": 5,
+            "typ": "String"
+        },
+        {
+            "name": "T5",
+            "position": 6,
+            "typ": "String"
+        },
+        {
+            "name": "T6",
+            "position": 7,
+            "typ": "String"
+        },
+        {
+            "name": "T7",
+            "position": 8,
+            "typ": "String"
+        },
+        {
+            "name": "T8",
+            "position": 9,
+            "typ": "String"
+        },
+        {
+            "name": "T9",
+            "position": 10,
+            "typ": "String"
+        },
+        {
+            "name": "T10",
+            "position": 11,
+            "typ": "String"
+        },
+        {
+            "name": "SrcClassfication1",
+            "position": 12,
+            "typ": "String"
+        },
+        {
+            "name": "SrcClassfication2",
+            "position": 13,
+            "typ": "String"
+        },
+        {
+            "name": "SrcClassfication3",
+            "position": 14,
+            "typ": "String"
+        },
+        {
+            "name": "SrcClassfication4",
+            "position": 15,
+            "typ": "String"
+        },
+        {
+            "name": "SrcClassfication5",
+            "position": 16,
+            "typ": "String"
+        },
+        {
+            "name": "LCRClassification",
+            "position": 17,
+            "typ": "String"
+        },
+        {
+            "name": "CA_Nops_Bal",
+            "position": 18,
+            "typ": "F64"
+        },
+        {
+            "name": "CA_Nops_Count",
+            "position": 19,
+            "typ": "I64"
+        },
+        {
+            "name": "CA_Ops_Bal",
+            "position": 20,
+            "typ": "F64"
+        },
+        {
+            "name": "CA_Ops_Count",
+            "position": 21,
+            "typ": "I64"
+        },
+        {
+            "name": "SA_Nops_Bal",
+            "position": 22,
+            "typ": "F64"
+        },
+        {
+            "name": "SA_Nops_Count",
+            "position": 23,
+            "typ": "I64"
+        },
+        {
+            "name": "SA_Ops_Bal",
+            "position": 24,
+            "typ": "F64"
+        },
+        {
+            "name": "SA_Ops_Count",
+            "position": 25,
+            "typ": "I64"
+        },
+        {
+            "name": "TD_WD_Bal",
+            "position": 26,
+            "typ": "F64"
+        },
+        {
+            "name": "TD_WD_Count",
+            "position": 27,
+            "typ": "I64"
+        },
+        {
+            "name": "TD_NWD_Bal",
+            "position": 28,
+            "typ": "F64"
+        },
+        {
+            "name": "TD_NWD_Count",
+            "position": 29,
+            "typ": "I64"
+        },
+        {
+            "name": "RD_WD_Bal",
+            "position": 30,
+            "typ": "F64"
+        },
+        {
+            "name": "RD_WD_Count",
+            "position": 31,
+            "typ": "I64"
+        },
+        {
+            "name": "RD_NWD_Bal",
+            "position": 32,
+            "typ": "F64"
+        },
+        {
+            "name": "RD_NWD_Count",
+            "position": 33,
+            "typ": "I64"
+        },
+        {
+            "name": "Lien_WD_Bal",
+            "position": 34,
+            "typ": "F64"
+        },
+        {
+            "name": "Lien_NWD_Bal",
+            "position": 35,
+            "typ": "F64"
+        },
+        {
+            "name": "Oth_Ref_Bal1",
+            "position": 36,
+            "typ": "F64"
+        },
+        {
+            "name": "Oth_Ref_Bal2",
+            "position": 37,
+            "typ": "F64"
+        },
+        {
+            "name": "Oth_Ref_Bal3",
+            "position": 38,
+            "typ": "F64"
+        },
+        {
+            "name": "Oth_Ref_Bal4",
+            "position": 39,
+            "typ": "F64"
+        },
+        {
+            "name": "Oth_Ref_Bal5",
+            "position": 40,
+            "typ": "F64"
+        },
+        {
+            "name": "TotalDepBal",
+            "position": 41,
+            "typ": "F64"
+        },
+        {
+            "name": "LCRDepBAl",
+            "position": 42,
+            "typ": "F64"
+        },
+        {
+            "name": "NetLCRDepBal",
+            "position": 43,
+            "typ": "F64"
+        },
+        {
+            "name": "CA_Stable_Eligibility",
+            "position": 44,
+            "typ": "String"
+        },
+        {
+            "name": "SA_Stable_Eligibility",
+            "position": 45,
+            "typ": "String"
+        },
+        {
+            "name": "TD_Stable_Eligibility",
+            "position": 46,
+            "typ": "String"
+        },
+        {
+            "name": "RD_Stable_Eligibility",
+            "position": 47,
+            "typ": "String"
+        },
+        {
+            "name": "Ops_Stable_TBal",
+            "position": 48,
+            "typ": "F64"
+        },
+        {
+            "name": "Ops_LStable_TBal",
+            "position": 49,
+            "typ": "F64"
+        },
+        {
+            "name": "LCR_Stable_TBal",
+            "position": 50,
+            "typ": "F64"
+        },
+        {
+            "name": "LCR_LStable_TBal",
+            "position": 51,
+            "typ": "F64"
+        },
+        {
+            "name": "CA_Nops_Stable_Bal",
+            "position": 52,
+            "typ": "F64"
+        },
+        {
+            "name": "CA_Nops_LStable_Bal",
+            "position": 53,
+            "typ": "F64"
+        },
+        {
+            "name": "CA_Ops_Stable_Bal",
+            "position": 54,
+            "typ": "F64"
+        },
+        {
+            "name": "CA_Ops_LStable_Bal",
+            "position": 55,
+            "typ": "F64"
+        },
+        {
+            "name": "SA_Nops_Stable_Bal",
+            "position": 56,
+            "typ": "F64"
+        },
+        {
+            "name": "SA_Nops_LStable_Bal",
+            "position": 57,
+            "typ": "F64"
+        },
+        {
+            "name": "SA_Ops_Stable_Bal",
+            "position": 58,
+            "typ": "F64"
+        },
+        {
+            "name": "SA_Ops_LStable_Bal",
+            "position": 59,
+            "typ": "F64"
+        },
+        {
+            "name": "TD_WD_Stable_Bal",
+            "position": 60,
+            "typ": "F64"
+        },
+        {
+            "name": "TD_WD_LStable_Bal",
+            "position": 61,
+            "typ": "F64"
+        },
+        {
+            "name": "TD_NWD_Stable_Bal",
+            "position": 62,
+            "typ": "F64"
+        },
+        {
+            "name": "TD_NWD_LStable_Bal",
+            "position": 63,
+            "typ": "F64"
+        },
+        {
+            "name": "RD_WD_Stable_Bal",
+            "position": 64,
+            "typ": "F64"
+        },
+        {
+            "name": "RD_WD_LStable_Bal",
+            "position": 65,
+            "typ": "F64"
+        },
+        {
+            "name": "RD_NWD_Stable_Bal",
+            "position": 66,
+            "typ": "F64"
+        },
+        {
+            "name": "RD_NWD_LStable_Bal",
+            "position": 67,
+            "typ": "F64"
+        },
+        {
+            "name": "Lien_WD_Stable_Bal",
+            "position": 68,
+            "typ": "F64"
+        },
+        {
+            "name": "Lien_WD_LStable_Bal",
+            "position": 69,
+            "typ": "F64"
+        },
+        {
+            "name": "Lien_NWD_Stable_Bal",
+            "position": 70,
+            "typ": "F64"
+        },
+        {
+            "name": "Lien_NWD_LStable_Bal",
+            "position": 71,
+            "typ": "F64"
+        }
+    ]
+}

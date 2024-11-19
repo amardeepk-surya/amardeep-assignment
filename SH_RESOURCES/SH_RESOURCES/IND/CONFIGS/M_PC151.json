@@ -1,0 +1,22 @@
+{
+  "id": "M_PC151",
+  "name": "reporevrepo_balm_aggr",
+  "base_input_id": "M_OP150",
+  "file_type": "ProcessConfig",
+  "base_input_metadata": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/CONFIGS/M_OP150.json",
+  "additional_input": [
+    {
+      "input_type": "ExchangeRate",
+      "input_metadata": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/CONFIGS/M_IN054.json",
+      "id": "M_IN054"
+    },
+    {
+      "input_type": "AggrRule",
+      "input_metadata": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/RULES/AGGR_14000.txt",
+      "id": "14000"
+    }
+  ],
+  "base_output_id": "M_OP151",
+  "base_output_metadata": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/CONFIGS/M_OP151.json",
+  "additional_output": []
+}

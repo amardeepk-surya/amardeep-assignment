@@ -1,0 +1,384 @@
+{
+  "fields": [
+    {
+      "name": "loan_account_no",
+      "position": 1,
+      "typ": "String"
+    },
+    {
+      "name": "loan_id",
+      "position": 2,
+      "typ": "I64"
+    },
+    {
+      "name": "customer_id",
+      "position": 3,
+      "typ": "String"
+    },
+    {
+      "name": "product_id",
+      "position": 4,
+      "typ": "I64"
+    },
+    {
+      "name": "product_desc",
+      "position": 5,
+      "typ": "String"
+    },
+    {
+      "name": "product_type",
+      "position": 6,
+      "typ": "String"
+    },
+    {
+      "name": "recovery_type",
+      "position": 7,
+      "typ": "String"
+    },
+    {
+      "name": "cust_name",
+      "position": 8,
+      "typ": "String"
+    },
+    {
+      "name": "disbursal_date",
+      "position": 9,
+      "typ": "I64"
+    },
+    {
+      "name": "due_day",
+      "position": 10,
+      "typ": "I64"
+    },
+    {
+      "name": "maturity_date",
+      "position": 11,
+      "typ": "I64"
+    },
+    {
+      "name": "original_tenure",
+      "position": 12,
+      "typ": "I64"
+    },
+    {
+      "name": "current_tenure",
+      "position": 13,
+      "typ": "I64"
+    },
+    {
+      "name": "balance_installments",
+      "position": 14,
+      "typ": "F64"
+    },
+    {
+      "name": "installment_type",
+      "position": 15,
+      "typ": "String"
+    },
+    {
+      "name": "int_recry_freq",
+      "position": 16,
+      "typ": "String"
+    },
+    {
+      "name": "principal_recry_freq",
+      "position": 17,
+      "typ": "String"
+    },
+    {
+      "name": "days_past_due",
+      "position": 18,
+      "typ": "I64"
+    },
+    {
+      "name": "asset_clsfn",
+      "position": 19,
+      "typ": "String"
+    },
+    {
+      "name": "int_type",
+      "position": 20,
+      "typ": "String"
+    },
+    {
+      "name": "cust_int_rate",
+      "position": 21,
+      "typ": "F64"
+    },
+    {
+      "name": "rate_type",
+      "position": 22,
+      "typ": "String"
+    },
+    {
+      "name": "overdue_prin_amount",
+      "position": 23,
+      "typ": "F64"
+    },
+    {
+      "name": "overdue_interest_amount",
+      "position": 24,
+      "typ": "F64"
+    },
+    {
+      "name": "os_prin",
+      "position": 25,
+      "typ": "F64"
+    },
+    {
+      "name": "emi_amount",
+      "position": 26,
+      "typ": "F64"
+    },
+    {
+      "name": "accrued_not_recieved_int",
+      "position": 27,
+      "typ": "F64"
+    },
+    {
+      "name": "last_payment_date",
+      "position": 28,
+      "typ": "I64"
+    },
+    {
+      "name": "next_instmt_due_date",
+      "position": 29,
+      "typ": "I64"
+    },
+    {
+      "name": "branch_id",
+      "position": 30,
+      "typ": "I64"
+    },
+    {
+      "name": "currency_code",
+      "position": 31,
+      "typ": "String"
+    },
+    {
+      "name": "fraud",
+      "position": 32,
+      "typ": "String"
+    },
+    {
+      "name": "restructure",
+      "position": 33,
+      "typ": "String"
+    },
+    {
+      "name": "A1",
+      "position": 34,
+      "typ": "F64"
+    },
+    {
+      "name": "A2",
+      "position": 35,
+      "typ": "F64"
+    },
+    {
+      "name": "A3",
+      "position": 36,
+      "typ": "F64"
+    },
+    {
+      "name": "A4",
+      "position": 37,
+      "typ": "F64"
+    },
+    {
+      "name": "A5",
+      "position": 38,
+      "typ": "F64"
+    },
+    {
+      "name": "A6",
+      "position": 39,
+      "typ": "F64"
+    },
+    {
+      "name": "A7",
+      "position": 40,
+      "typ": "F64"
+    },
+    {
+      "name": "A8",
+      "position": 41,
+      "typ": "I64"
+    },
+    {
+      "name": "A9",
+      "position": 42,
+      "typ": "I64"
+    },
+    {
+      "name": "A10",
+      "position": 43,
+      "typ": "I64"
+    },
+    {
+      "name": "A11",
+      "position": 44,
+      "typ": "I64"
+    },
+    {
+      "name": "A12",
+      "position": 45,
+      "typ": "I64"
+    },
+    {
+      "name": "A13",
+      "position": 46,
+      "typ": "I64"
+    },
+    {
+      "name": "A14",
+      "position": 47,
+      "typ": "I64"
+    },
+    {
+      "name": "A15",
+      "position": 48,
+      "typ": "String"
+    },
+    {
+      "name": "A16",
+      "position": 49,
+      "typ": "String"
+    },
+    {
+      "name": "A17",
+      "position": 50,
+      "typ": "String"
+    },
+    {
+      "name": "A18",
+      "position": 51,
+      "typ": "String"
+    },
+    {
+      "name": "A19",
+      "position": 52,
+      "typ": "String"
+    },
+    {
+      "name": "A20",
+      "position": 53,
+      "typ": "String"
+    },
+    {
+      "name": "A21",
+      "position": 54,
+      "typ": "String"
+    },
+    {
+      "name": "A22",
+      "position": 55,
+      "typ": "String"
+    },
+    {
+      "name": "A23",
+      "position": 56,
+      "typ": "String"
+    },
+    {
+      "name": "A24",
+      "position": 57,
+      "typ": "String"
+    },
+    {
+      "name": "A25",
+      "position": 58,
+      "typ": "String"
+    },
+    {
+      "name": "A26",
+      "position": 59,
+      "typ": "String"
+    },
+    {
+      "name": "A27",
+      "position": 60,
+      "typ": "String"
+    },
+    {
+      "name": "A28",
+      "position": 61,
+      "typ": "String"
+    },
+    {
+      "name": "A29",
+      "position": 62,
+      "typ": "String"
+    },
+    {
+      "name": "A30",
+      "position": 63,
+      "typ": "String"
+    },
+    {
+      "name": "A31",
+      "position": 64,
+      "typ": "String"
+    },
+    {
+      "name": "A32",
+      "position": 65,
+      "typ": "String"
+    },
+    {
+      "name": "A33",
+      "position": 66,
+      "typ": "String"
+    },
+    {
+      "name": "A34",
+      "position": 67,
+      "typ": "String"
+    },
+    {
+      "name": "A35",
+      "position": 68,
+      "typ": "String"
+    },
+    {
+      "name": "A36",
+      "position": 69,
+      "typ": "I64"
+    },
+    {
+      "name": "A37",
+      "position": 70,
+      "typ": "I64"
+    },
+    {
+      "name": "A38",
+      "position": 71,
+      "typ": "I64"
+    },
+    {
+      "name": "A39",
+      "position": 72,
+      "typ": "I64"
+    },
+    {
+      "name": "A40",
+      "position": 73,
+      "typ": "I64"
+    },
+    {
+      "name": "total_principal",
+      "position": 74,
+      "typ": "F64"
+    },
+    {
+      "name": "total_interest",
+      "position": 75,
+      "typ": "F64"
+    },
+    {
+      "name": "cashflows",
+      "position": 76,
+      "typ": "Cashflows"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "cust_id": "custid",
+    "constitution_code": "constitution_code",
+    "final_constitution_code": "final_constitution_code",
+    "is_nwd_final": "is_nwd_final",
+    "out_bal_amt": "out_bal_amt",
+    "t1": "t1",
+    "t2": "t2",
+    "t3": "t3",
+    "t4": "t4",
+    "t5": "t5",
+    "t6": "t6",
+    "t7": "t7",
+    "t8": "t8",
+    "t9": "t9",
+    "t10": "t10",
+    "ops_bal": "reported_opamt_ccy",
+    "non_ops_bal": "reported_nonopamt_ccy",
+    "lien_final_amt": "lien_final_amt",
+    "is_operational": "is_operational",
+    "dep_ipo_amt": ""
+}

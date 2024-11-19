@@ -1,0 +1,124 @@
+{
+  "fields": [
+    {
+      "name": "DealDate",
+      "position": 1,
+      "typ": "I64"
+    },
+    {
+      "name": "ValueDt",
+      "position": 2,
+      "typ": "I64"
+    },
+    {
+      "name": "AIRAIP",
+      "position": 3,
+      "typ": "String"
+    },
+    {
+      "name": "BankNonBank",
+      "position": 4,
+      "typ": "String"
+    },
+    {
+      "name": "DealSubType",
+      "position": 5,
+      "typ": "String"
+    },
+    {
+      "name": "DealType",
+      "position": 6,
+      "typ": "String"
+    },
+    {
+      "name": "RepoInterest",
+      "position": 7,
+      "typ": "F64"
+    },
+    {
+      "name": "RepoRate",
+      "position": 8,
+      "typ": "F64"
+    },
+    {
+      "name": "SLRTyp",
+      "position": 9,
+      "typ": "String"
+    },
+    {
+      "name": "Settleamt",
+      "position": 10,
+      "typ": "F64"
+    },
+    {
+      "name": "AccruedIntBal",
+      "position": 11,
+      "typ": "F64"
+    },
+    {
+      "name": "AccruedIntGLCode",
+      "position": 12,
+      "typ": "String"
+    },
+    {
+      "name": "BV",
+      "position": 13,
+      "typ": "F64"
+    },
+    {
+      "name": "CCY",
+      "position": 14,
+      "typ": "String"
+    },
+    {
+      "name": "CounterParty",
+      "position": 15,
+      "typ": "String"
+    },
+    {
+      "name": "DealNum",
+      "position": 16,
+      "typ": "String"
+    },
+    {
+      "name": "FV",
+      "position": 17,
+      "typ": "F64"
+    },
+    {
+      "name": "GLCode",
+      "position": 18,
+      "typ": "String"
+    },
+    {
+      "name": "MaturityDate",
+      "position": 19,
+      "typ": "I64"
+    },
+    {
+      "name": "PortFolio",
+      "position": 20,
+      "typ": "String"
+    },
+    {
+      "name": "YieldRate",
+      "position": 21,
+      "typ": "F64"
+    },
+    {
+      "name": "CounterpartyName",
+      "position": 22,
+      "typ": "String"
+    },
+    {
+      "name": "Mduration",
+      "position": 23,
+      "typ": "String"
+    },
+    {
+      "name": "cashflows",
+      "position": 24,
+      "typ": "Cashflows"
+    }
+  ]
+}

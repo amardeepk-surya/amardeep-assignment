@@ -1,0 +1,97 @@
+{
+    "ca": [
+      {
+        "input": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_CFDATA/IND/{ddmmyyyy}/peo_CurrentAccounts.cf",
+        "metadata": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/METADATA-FILES/ca.json",
+        "required_fields": {
+          "customer_id": "CustID",
+          "account_id": "AccNum",
+          "maturity_date": "",
+          "asset_relation_field": "AssetRelationFlag",
+          "salary_relation_field": "SalaryFlag",
+          "pension_relation_field": "MultipleDepositFlag"
+        },
+        "balm_rule": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_PREPROCESS/IND/{ddmmyyyy}/ca_account_level_llg_master.txt",
+        "nwd_rules": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/RULES/BASEL/nwd.txt"
+      }
+    ],
+    "sa": [
+      {
+        "input": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_CFDATA/IND/{ddmmyyyy}/peo_SavingAccount.cf",
+        "metadata": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/METADATA-FILES/sa.json",
+        "required_fields": {
+          "customer_id": "CustID",
+          "account_id": "AccNum",
+          "maturity_date": "",
+          "asset_relation_field": "AssetRelationFlag",
+          "salary_relation_field": "SalaryFlag",
+          "pension_relation_field": "MultipleDepositFlag"
+        },
+        "balm_rule": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_PREPROCESS/IND/{ddmmyyyy}/sa_account_level_llg_master.txt",
+        "nwd_rules": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/RULES/BASEL/nwd.txt"
+      }
+    ],
+    "td": [
+      {
+        "input": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_CFDATA/IND/{ddmmyyyy}/peo_TermDeposits.cf",
+        "metadata": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/METADATA-FILES/td.json",
+        "required_fields": {
+          "customer_id": "CustID",
+          "account_id": "AccNum",
+          "maturity_date": "",
+          "asset_relation_field": "AssetRelationFlag",
+          "salary_relation_field": "SalaryFlag",
+          "pension_relation_field": "MultipleDepositFlag"
+        },
+        "balm_rule": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_PREPROCESS/IND/{ddmmyyyy}/td_account_level_llg_master.txt",
+        "nwd_rules": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/RULES/BASEL/nwd.txt"
+      }
+    ],
+    "rd": [
+      {
+        "input": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/empty.cf",
+        "metadata": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/METADATA-FILES/td.json",
+        "required_fields": {
+          "customer_id": "CustID",
+          "account_id": "AccNum",
+          "maturity_date": "",
+          "asset_relation_field": "",
+          "salary_relation_field": "",
+          "pension_relation_field": ""
+        },
+        "balm_rule": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_PREPROCESS/IND/{ddmmyyyy}/td_account_level_llg_master.txt",
+        "nwd_rules": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/RULES/BASEL/nwd.txt"
+      }
+    ],
+    "salary_pension": {
+      "is_salary_pension_file_in_use": "false",
+      "salary_pension_codes_file": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/MASTER/SalaryFlag.txt",
+      "input_file": "",
+      "metadata": "",
+      "lookup_field": ""
+    },
+    "pension_relation": {
+      "is_pension_file_in_use": "false",
+      "pension_codes_file": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/MASTER/PensionFlag.txt",
+      "input_file": "",
+      "metadata": "",
+      "lookup_field": ""
+    },
+    "asset_relation": {
+      "is_asset_relation_file_in_use": "false",
+      "asset_relation_codes_file": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/MASTER/AssetFlag.txt",
+      "input_file": "",
+      "metadata": "",
+      "lookup_field": "",
+      "relation_count_field": "",
+      "is_asset_relation_customer_id_level": "false"
+    },
+    "nwd_relation": {
+      "is_balm_llg_in_use": "false",
+      "balm_llg_codes_file": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/MASTER/empty.txt",
+      "residual_days": "30"
+    },
+    "is_deposit_count_stamp": "true",
+    "output": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_PREPROCESS/IND/{ddmmyyyy}/transactional_relationship_flag.txt"
+  }
+  

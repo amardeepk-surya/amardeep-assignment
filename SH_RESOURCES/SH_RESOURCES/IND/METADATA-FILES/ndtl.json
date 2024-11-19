@@ -1,0 +1,84 @@
+{
+  "fields": [
+    {
+      "name": "as_on_date",
+      "position": 1,
+      "typ": "String"
+    },
+    {
+      "name": "ndtl_val",
+      "position": 2,
+      "typ": "F64"
+    },
+    {
+      "name": "total_gsec_bv",
+      "position": 3,
+      "typ": "F64"
+    },
+    {
+      "name": "total_gsec_mv",
+      "position": 4,
+      "typ": "F64"
+    },
+    {
+      "name": "ex_slr_bv",
+      "position": 5,
+      "typ": "F64"
+    },
+    {
+      "name": "msf_bv",
+      "position": 6,
+      "typ": "F64"
+    },
+    {
+      "name": "slr_bv",
+      "position": 7,
+      "typ": "F64"
+    },
+    {
+      "name": "ex_slr_pct_gsec",
+      "position": 8,
+      "typ": "F64"
+    },
+    {
+      "name": "msf_pct_gsec",
+      "position": 9,
+      "typ": "F64"
+    },
+    {
+      "name": "slr_pct_gsec",
+      "position": 10,
+      "typ": "F64"
+    },
+    {
+      "name": "ex_slr_mv",
+      "position": 11,
+      "typ": "F64"
+    },
+    {
+      "name": "msf_mv",
+      "position": 12,
+      "typ": "F64"
+    },
+    {
+      "name": "slr_mv",
+      "position": 13,
+      "typ": "F64"
+    },
+    {
+      "name": "final_excess_slr",
+      "position": 14,
+      "typ": "F64"
+    },
+    {
+      "name": "final_msf",
+      "position": 15,
+      "typ": "F64"
+    },
+    {
+      "name": "final_slr",
+      "position": 16,
+      "typ": "F64"
+    }
+  ]
+}

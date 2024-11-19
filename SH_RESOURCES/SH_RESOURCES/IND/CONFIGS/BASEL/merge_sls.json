@@ -1,0 +1,18 @@
+{
+  "output_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_SUMMARYDATA/IND/{ddmmyyyy}/merge_sls.txt",
+  "exchange_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_INPUT/IND/{ddmmyyyy}/BOC_EX_RT.txt",
+  "master_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_INPUT/IND/{ddmmyyyy}/sls.txt",
+  "llg_details_end": 7,
+  "bucket_end": 22,
+  "cf_type": 0,
+  "llg_id": 1,
+  "item_type": 2,
+  "level_1": 3,
+  "level_2": 4,
+  "level_3": 5,
+  "level_4": 6,
+  "base_currency": "INR",
+  "files": [
+  ]
+}
+

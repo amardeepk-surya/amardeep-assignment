@@ -1,0 +1,10 @@
+{
+  "id": "M_PC138",
+  "name": "placements_peo",
+  "base_input_id": "M_IN106",
+  "base_input_metadata": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/CONFIGS/M_IN106.json",
+  "file_type": "ProcessConfig",
+  "additional_input": [],
+  "base_output_id": "M_OP138",
+  "base_output_metadata": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/CONFIGS/M_OP138.json"
+}

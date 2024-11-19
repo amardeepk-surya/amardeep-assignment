@@ -1,0 +1,67 @@
+{
+    "ca_ops": {
+      "source_name": "CA OPS",
+      "input_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_CFDATA/IND/{ddmmyyyy}/ca_classifier_CA_ops_nrtl.cf",
+      "metadata_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/METADATA-FILES/classifier_metadata.json",
+      "required_fields_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/REQUIRED-FIELDS/customer-aggregator-source.json",
+      "stable_rule": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/RULES/BASEL/stable_eligibility.txt",
+      "is_default_stable_logic_applied": "false"
+    },
+    "ca_non_ops": {
+      "source_name": "CA NON OPS",
+      "input_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_CFDATA/IND/{ddmmyyyy}/ca_classifier_CA_non_ops_nrtl.cf",
+      "metadata_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/METADATA-FILES/classifier_metadata.json",
+      "required_fields_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/REQUIRED-FIELDS/customer-aggregator-source.json",
+      "stable_rule": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/RULES/BASEL/stable_eligibility.txt",
+      "is_default_stable_logic_applied": "false"
+    },
+    "sa_ops": {
+      "source_name": "SA OPS",
+      "input_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_CFDATA/IND/{ddmmyyyy}/sa_classifier_SA_ops_nrtl.cf",
+      "metadata_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/METADATA-FILES/classifier_metadata.json",
+      "required_fields_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/REQUIRED-FIELDS/customer-aggregator-source.json",
+      "stable_rule": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/RULES/BASEL/stable_eligibility.txt",
+      "is_default_stable_logic_applied": "false"
+    },
+    "sa_non_ops": {
+      "source_name": "SA NON OPS",
+      "input_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_CFDATA/IND/{ddmmyyyy}/sa_classifier_SA_non_ops_nrtl.cf",
+      "metadata_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/METADATA-FILES/classifier_metadata.json",
+      "required_fields_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/REQUIRED-FIELDS/customer-aggregator-source.json",
+      "stable_rule": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/RULES/BASEL/stable_eligibility.txt",
+      "is_default_stable_logic_applied": "false"
+    },
+    "td_non_ops": {
+      "source_name": "TD",
+      "input_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_CFDATA/IND/{ddmmyyyy}/td_classifier_TD_non_ops_nrtl.cf",
+      "metadata_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/METADATA-FILES/classifier_metadata.json",
+      "required_fields_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/REQUIRED-FIELDS/customer-aggregator-source.json",
+      "stable_rule": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/RULES/BASEL/stable_eligibility.txt",
+      "is_default_stable_logic_applied": "false"
+    },
+    "rd_non_ops": {
+      "source_name": "RD",
+      "input_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/empty.cf",
+      "metadata_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/METADATA-FILES/classifier_metadata.json",
+      "required_fields_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/REQUIRED-FIELDS/customer-aggregator-source.json",
+      "stable_rule": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/RULES/BASEL/stable_eligibility.txt",
+      "is_default_stable_logic_applied": "false"
+    },
+    "cust_master": {
+      "source_name": "CUSTOMER MASTER",
+      "input_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_CFDATA/IND/{ddmmyyyy}/customer_master_aggregator_custmaster_nrtl.cf",
+      "metadata_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/METADATA-FILES/customer_master_aggregator.json",
+      "required_fields_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/REQUIRED-FIELDS/customer-aggregator-master.json",
+      "stable_rule": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/RULES/BASEL/stable_eligibility.txt",
+      "is_default_stable_logic_applied": "false"
+    },
+    "rule_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/RULES/BASEL/customer_aggregator.txt",
+    "default_llg_code": 7,
+    "stable_limit_file": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/MASTER/empty.txt",
+    "group_consti_overide_file": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/MASTER/empty.txt",
+    "tbl_basel_parameters": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_RESOURCES/IND/MASTER/empty.txt",
+    "salary_stable_lcr_classification": 0,
+    "output_file_path": "/home/surya/SURYA_ENVIRONMENTS/BOC/DH/SH_CFDATA/IND/{ddmmyyyy}/non_retail",
+    "is_default_stable_logic_applied": "false"
+  }
+  

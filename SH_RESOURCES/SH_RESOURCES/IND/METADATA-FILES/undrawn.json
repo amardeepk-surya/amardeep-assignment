@@ -1,0 +1,54 @@
+{
+  "fields": [
+    {
+      "name": "CCY",
+      "position": 1,
+      "typ": "String"
+    },
+    {
+      "name": "CustID",
+      "position": 2,
+      "typ": "String"
+    },
+    {
+      "name": "InstrType",
+      "position": 3,
+      "typ": "String"
+    },
+    {
+      "name": "OutBal",
+      "position": 4,
+      "typ": "F64"
+    },
+    {
+      "name": "OutBalLCY",
+      "position": 5,
+      "typ": "F64"
+    },
+    {
+      "name": "SanctionedLimit",
+      "position": 6,
+      "typ": "F64"
+    },
+    {
+      "name": "SanctionId",
+      "position": 7,
+      "typ": "String"
+    },
+    {
+      "name": "SantionMaturityDate",
+      "position": 8,
+      "typ": "String"
+    },
+    {
+      "name": "CustomerConstitutionCode",
+      "position": 9,
+      "typ": "String"
+    },
+    {
+      "name": "SanctionDate",
+      "position": 10,
+      "typ": "String"
+    }
+  ]
+}

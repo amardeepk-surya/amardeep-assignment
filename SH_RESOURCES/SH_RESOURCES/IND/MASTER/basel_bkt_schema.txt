@@ -1,0 +1,4 @@
+1001|1|1 day to 3 days|1|31|Days|Days|Y|311423|20-FEB-25|311423|20-FEB-25
+1001|2| 31 days to less than 6 M|31|6|Days|Month|Y|311423|20-FEB-25|311423|20-FEB-25
+1001|3|6 M to less than 1 Y|6|1|Month|Years|Y|311423|20-FEB-25|311423|20-FEB-25
+1001|4|1 Year and above|1|30|Years|Years|Y|311423|20-FEB-25|311423|20-FEB-25
